@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+{% set route_name = app.request.attributes.get('_route') %}
+
+{% block title %}Hello DashboardController!{% endblock %}
+
+{% block body %}
+    {{ include ('dashboard/components/navbar.html.twig', {'route_name': route_name}) }}
+{% endblock %}

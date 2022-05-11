@@ -1,0 +1,142 @@
+.navbar {
+    height: 72px;
+    background-color: var(--main-light) !important;
+    padding: 0;
+}
+.navbar .container-fluid {
+    height: 100%;
+    padding: 0;
+}
+.navbar h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: .25rem;
+}
+.navbar span {
+    font-size: .75rem;
+    font-weight: 600;
+    color: #002508;
+}
+.brand-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 300px;
+    min-width: 300px;
+    background: var(--main);
+    padding: 0 .75rem;
+}
+.brand-section button {
+    height: 24px;
+    width: 28px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+    border: 0;
+}
+.brand-section button span {
+    height: 3px;
+    border-radius: 6px;
+    transition: .3s;
+    width: 100%;
+    background: #fff;
+}
+.brand-section .btn-search {
+    display: none;
+}
+#btn-menu {
+    overflow: hidden;
+}
+#btn-menu.show {
+    justify-content: center;
+}
+#btn-menu.show span:nth-child(3){
+    transform: rotate(-45deg) translateY(-4px);
+}
+#btn-menu.show span:nth-child(1){
+    transform: rotate(45deg) translateY(4px);
+}
+#btn-menu.show span:nth-child(2){
+    transform: translateX(-28px);
+}
+.menu-aside {
+    width: 300px;
+    height: calc(100vh - 72px);
+    padding-top: 1.5rem;
+    background: #333;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    transition: .3s;
+}
+.menu-aside.show {
+    width: 80px;
+    overflow: hidden;
+}
+.menu-aside.show ul li a span {
+    display: none;
+}
+.menu-aside ul {
+    padding: 0;
+    margin: 0;
+}
+.menu-aside ul li {
+    list-style: none;
+}
+.menu-aside ul li a {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+.menu-aside ul li a span {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.menu-aside ul li a i {
+    min-width: 16px;
+    min-height: 16px;
+    margin-right: 1rem;
+}
+.menu-aside ul li.active a {
+    color: var(--main);
+}
+.menu-aside ul li.active a i {
+    background: var(--main);
+}
+@media (max-width: 992px) {
+    .brand-section {
+        width: 100%;
+        max-width: unset;
+    }
+    .brand-section .btn-search {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+    .brand-section .btn-search i {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .menu-aside {
+        transition: .3s;
+        left: -300px;
+    }
+    .menu-aside.show {
+        width: 300px;
+        left: 0;
+    }
+    .menu-aside.show ul li a span {
+        display: flex;
+    }
+}

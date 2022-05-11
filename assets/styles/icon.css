@@ -1,0 +1,88 @@
+.icon {
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    display: block;
+    -webkit-mask-size: 100%!important;
+    mask-size: 100%!important;
+    background-color: #fff;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    color: transparent;
+}
+.fa-home {
+    mask-image: url('../images/house.svg');
+    mask: url('../images/house.svg') no-repeat center;
+    -webkit-mask: url('../images/house.svg') no-repeat center;
+}
+.fa-gavel {
+    mask-image: url('../images/gavel-solid.svg');
+    mask: url('../images/gavel-solid.svg') no-repeat center;
+    -webkit-mask: url('../images/gavel-solid.svg') no-repeat center;
+}
+.fa-file {
+    mask-image: url('../images/file-lines.svg');
+    mask: url('../images/file-lines.svg') no-repeat center;
+    -webkit-mask: url('../images/file-lines.svg') no-repeat center;
+}
+.fa-list {
+    mask-image: url('../images/list-ol.svg');
+    mask: url('../images/list-ol.svg') no-repeat center;
+    -webkit-mask: url('../images/list-ol.svg') no-repeat center;
+}
+.fa-balanced {
+    mask-image: url('../images/scale-balanced.svg');
+    mask: url('../images/scale-balanced.svg') no-repeat center;
+    -webkit-mask: url('../images/scale-balanced.svg') no-repeat center;
+}
+.fa-chart-pie {
+    mask-image: url('../images/chart-pie.svg');
+    mask: url('../images/chart-pie.svg') no-repeat center;
+    -webkit-mask: url('../images/chart-pie.svg') no-repeat center;
+}
+.fa-coins {
+    mask-image: url('../images/coins-solid.svg');
+    mask: url('../images/coins-solid.svg') no-repeat center;
+    -webkit-mask: url('../images/coins-solid.svg') no-repeat center;
+}
+.fa-file-dollar {
+    mask-image: url('../images/file-dollar.svg');
+    mask: url('../images/file-dollar.svg') no-repeat center;
+    -webkit-mask: url('../images/file-dollar.svg') no-repeat center;
+}
+.fa-hand-dollar {
+    mask-image: url('../images/hand-dollar.svg');
+    mask: url('../images/hand-dollar.svg') no-repeat center;
+    -webkit-mask: url('../images/hand-dollar.svg') no-repeat center;
+}
+.fa-diary {
+    mask-image: url('../images/diary.svg');
+    mask: url('../images/diary.svg') no-repeat center;
+    -webkit-mask: url('../images/diary.svg') no-repeat center;
+}
+.fa-building {
+    mask-image: url('../images/building.svg');
+    mask: url('../images/building.svg') no-repeat center;
+    -webkit-mask: url('../images/building.svg') no-repeat center;
+}
+.fa-siq {
+    mask-image: url('../images/siq.svg');
+    mask: url('../images/siq.svg') no-repeat center;
+    -webkit-mask: url('../images/siq.svg') no-repeat center;
+}
+.fa-search {
+    mask-image: url('../images/search.svg');
+    mask: url('../images/search.svg') no-repeat center;
+    -webkit-mask: url('../images/search.svg') no-repeat center;
+}
+.fa-accessible {
+    mask-image: url('../images/accessible.svg');
+    mask: url('../images/accessible.svg') no-repeat center;
+    -webkit-mask: url('../images/accessible.svg') no-repeat center;
+}
+.fa-close {
+    mask-image: url('../images/close.svg');
+    mask: url('../images/close.svg') no-repeat center;
+    -webkit-mask: url('../images/close.svg') no-repeat center;
+}
