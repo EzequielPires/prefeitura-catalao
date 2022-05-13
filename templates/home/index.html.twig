@@ -6,11 +6,11 @@
     {{ encore_entry_link_tags('home') }}
 {% endblock %}
 {% block body %}
-<div class="example-wrapper">
-    <div class="alert alert-success">
-        sucesso
+    {{ include ('components/_header_default.html.twig') }}
+    <div class="container py-5">
+        {{ include ('home/components/_navtabs.html.twig') }}
     </div>
-</div>
+    {{ include ('home/components/_stories.html.twig') }}
 {% endblock %}
 {% block javascripts %}
     {{ parent() }}

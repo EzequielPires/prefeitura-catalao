@@ -5,4 +5,7 @@
 
 {% block body %}
     {{ include ('dashboard/components/navbar.html.twig', {'route_name': route_name}) }}
+    <div class="content-dashboard">
+        {{ include ('dashboard/components/_tabs_bids.html.twig') }}
+    </div>
 {% endblock %}

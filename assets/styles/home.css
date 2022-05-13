@@ -1,3 +1,125 @@
-.alert-success {
-    background: red;
+.nav-tabs {
+    border: 0;
+}
+.nav-tabs .nav-item .nav-link {
+    border: 0;
+    font-size: 1.5rem;
+    background: transparent;
+    font-weight: 600;
+    color: #555;
+    padding: 0;
+    margin-right: 48px;
+}
+.nav-tabs .nav-item .nav-link.active {
+    border: 0;
+    font-size: 1.5rem;
+    background: transparent;
+    font-weight: 700;
+    color: #333;
+    padding: 0;
+    margin-right: 48px;
+    position: relative;
+}
+.nav-tabs .nav-item .nav-link:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-radius: 6px;
+    width: 0;
+    height: 6px;
+    background: var(--main-light);
+}
+.nav-tabs .nav-item .nav-link.active:after {
+    width: 80%;
+}
+.tab-content {
+    width: 928px !important;
+}
+.card-link {
+    width: 160px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00490F;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #00490F;
+    border-radius: 8px;
+    margin-left: 0;
+    padding: 1rem;
+}
+.card-link:hover {
+    color: #00490F;
+}
+
+.tabs-main .card-main {
+    width: 160px;
+    height: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--main);
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.input-search-tabs {
+    width: 100%;
+    max-width: 928px;
+    height: 48px;
+    position: relative;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+.input-search-tabs input {
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #26893A;
+    padding-left: 40px;
+}
+.input-search-tabs input:focus {
+    outline: 0;
+    border: 1px solid #26893A;
+}
+.input-search-tabs button {
+    height: 48px;
+    width: 160px;
+    background: #26893A;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    margin-left: .5rem;
+}
+.input-search-tabs i {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #26893A;
+    position: absolute;
+    left: .75rem;
+}
+.stories {
+    height: 300px;
+    width: 100%;
+    background: #26893A;
+    padding: 48px 0;
+}
+.stories .title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: .25rem;
+}
+.stories p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
 }

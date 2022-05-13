@@ -1,0 +1,57 @@
+.content-dashboard {
+    padding-top: 108px;
+    padding-left: 332px;
+    padding-right: 2rem;
+}
+.content-dashboard .table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .15);
+}
+.table-dark {
+    --bs-table-bg: #333 !important;
+}
+#tabsBids {
+    border-bottom: 1px solid #d8d8d8;
+    gap: 1.5rem;
+}
+#tabsBids .nav-item .nav-link {
+    color: #555;
+}
+#tabsBids .nav-item .nav-link.active {
+    border-color: var(--main);
+    background: var(--main);
+    color: #fff;
+    font-weight: 700;
+}
+.filter-table select, .filter-table input{
+    height: 40px;
+    width: 164px;
+    border-radius: 6px;
+    border: 1px solid var(--main);
+    background: transparent;
+    padding: 0 .75rem;
+    color: #999;
+}
+.filter-table .input-box-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.filter-table .input-box-search i {
+    position: absolute;
+    right: .75rem;
+    background: #999 !important;
+}
+.filter-table .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main);
+    color: #fff;
+    font-weight: 600;
+    padding: 0 1rem;
+}
+.filter-table .btn i {
+    margin-right: .5rem;
+}
