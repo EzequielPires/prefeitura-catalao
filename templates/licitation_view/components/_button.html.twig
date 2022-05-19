@@ -1,0 +1,6 @@
+<button id="{{ id is defined ? id }}" class="button">
+    {{ name is defined ? name }}
+    {% if icon_name %}
+        {{ include ('components/_icon.html.twig', {'icon_name': icon_name}) }}
+    {% endif %}
+</button>

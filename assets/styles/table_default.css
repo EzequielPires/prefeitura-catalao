@@ -1,0 +1,25 @@
+#description-table {
+    width: 30%;
+}
+#description-table p {
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.page-link, .page-link:hover {
+    color: var(--main);
+}
+td a {
+    color: #333;
+}
+td a:hover {
+    color: var(--secondary);
+}
+@media (max-width: 992px) {
+    #description-table, #price-item{
+        display: none !important;
+    }
+}

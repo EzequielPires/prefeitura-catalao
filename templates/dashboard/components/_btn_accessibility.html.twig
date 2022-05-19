@@ -1,4 +1,7 @@
-<button class="btn-acessibility d-flex align-items-center">
-    {{ include ('components/_icon.html.twig', {'icon_name': 'fa-accessible'}) }}
-    Acessibilidade
-</button>
+<div class="btn-acessibility">
+    <button class="d-flex align-items-center">
+        {{ include ('components/_icon.html.twig', {'icon_name': 'fa-accessible'}) }}
+        Acessibilidade
+    </button>
+    {{ include ('dashboard/components/_modal_accessibility.html.twig') }}
+</div>

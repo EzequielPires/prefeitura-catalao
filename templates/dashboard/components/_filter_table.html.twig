@@ -1,24 +1,24 @@
-<form class="filter-table d-flex mt-4 gap-3">
-    <div class="input-box-search">
+<form class="filter-table d-flex flex-wrap mt-4 gap-3">
+    <div class="input-box-search d-none d-md-flex">
         {{ include ('components/_icon.html.twig', {'icon_name': 'fa-search'}) }}
         <input type="text" placeholder="Buscar">
     </div>
-    <select name="modality">
+    <select class="d-none d-md-flex" name="modality">
         <option value="valor1" selected>Modalidade</option>
         <option value="valor2">Valor 2</option>
         <option value="valor3">Valor 3</option>
     </select>
-    <select name="covid">
+    <select class="d-none d-md-flex" name="covid">
         <option value="valor1" selected>Filtrar Covid-19</option>
         <option value="valor2">Valor 2</option>
         <option value="valor3">Valor 3</option>
     </select>
-    <select name="organ">
+    <select class="d-none d-md-flex" name="organ">
         <option value="valor1" selected>Órgão</option>
         <option value="valor2">Valor 2</option>
         <option value="valor3">Valor 3</option>
     </select>
-    <select name="period">
+    <select class="d-none d-md-flex" name="period">
         <option value="valor1" selected>Período</option>
         <option value="valor2">Valor 2</option>
         <option value="valor3">Valor 3</option>

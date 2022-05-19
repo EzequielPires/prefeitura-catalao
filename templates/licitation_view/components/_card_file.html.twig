@@ -1,0 +1,11 @@
+<div class="card-file">
+    <div class="extesion-file">
+        {% if type %}
+            {{ include ('components/_icon.html.twig', {'icon_name': 'fa-'~type}) }}
+        {% endif %}
+    </div>
+    <span class="title-file">{{ title is defined ? title }}</span>
+    <button class="button-action">
+        {{ include ('components/_icon.html.twig', {'icon_name': 'fa-upload'}) }}
+    </button>
+</div>

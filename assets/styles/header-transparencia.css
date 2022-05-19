@@ -72,6 +72,7 @@
     top: 72px;
     left: 0;
     transition: .3s;
+    z-index: 9999;
 }
 .menu-aside.show {
     width: 80px;

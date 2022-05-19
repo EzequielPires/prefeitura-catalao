@@ -106,3 +106,23 @@
     mask: url('../images/export.svg') no-repeat center;
     -webkit-mask: url('../images/export.svg') no-repeat center;
 }
+.fa-pdf {
+    mask-image: url('../images/pdf.svg');
+    mask: url('../images/pdf.svg') no-repeat center;
+    -webkit-mask: url('../images/pdf.svg') no-repeat center;
+}
+.fa-office {
+    mask-image: url('../images/office.svg');
+    mask: url('../images/office.svg') no-repeat center;
+    -webkit-mask: url('../images/office.svg') no-repeat center;
+}
+.fa-upload {
+    mask-image: url('../images/upload.svg');
+    mask: url('../images/upload.svg') no-repeat center;
+    -webkit-mask: url('../images/upload.svg') no-repeat center;
+}
+.fa-half {
+    mask-image: url('../images/half.svg');
+    mask: url('../images/half.svg') no-repeat center;
+    -webkit-mask: url('../images/half.svg') no-repeat center;
+}

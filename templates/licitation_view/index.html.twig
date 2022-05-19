@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+{% set route_name = app.request.attributes.get('_route') %}
+
+{% block title %}Hello BidsController!{% endblock %}
+
+{% block body %}
+    {{ include ('dashboard/components/navbar.html.twig', {'route_name': route_name}) }}
+    <div class="content-licitation-view d-flex">
+        <div class="licitation-details">
+            <h4 class="title">Concorrência 005/2022</h4>
+            <div class="d-flex gap-4 mb-4">
+                {{ include ('licitation_view/components/_field_text.html.twig', {'title': 'Orgão', 'value': 'Prefeitura municipal de Catalão'}) }}
+                {{ include ('licitation_view/components/_field_text.html.twig', {'title': 'Situação', 'value': 'Em andamento'}) }}
+            </div>
+            {{ include ('licitation_view/components/_field_text.html.twig', {'title': 'Lei base', 'value': 'Leis Nº 8.666/93; 10.520/02; 12.462/11'}) }}
+            <div class="d-flex flex-wrap gap-4 my-4">
+                {{ include ('licitation_view/components/_field_text.html.twig', {'title': 'Valor estimado', 'value': 'R$ 45.000,00'}) }}
+                {{ include ('licitation_view/components/_field_text.html.twig', {'title': 'Data de publicação ', 'value': '13/05/2022'}) }}
+                {{ include ('licitation_view/components/_field_text.html.twig', {'title': 'Data de abertura  ', 'value': '13/05/2022'}) }}
+                {{ include ('licitation_view/components/_field_text.html.twig', {'title': 'Hora de abertura ', 'value': '13:00'}) }}
+            </div>
+            {{ include ('licitation_view/components/_field_text.html.twig', {'title': 'Descrição / objeto', 'value': 'CONTRATAÇÃO DE SERVIÇOS DE ENGENHARIA ELÉTRICA COM FORNECIMENTO DE MATERIAIS PARA CONSTRUÇÃO DE REDE ELÉTRICA MONOFÁSICA CERCA DE 400 M RDR 13,8 KV, COM INSTALAÇÃO DE UM TRAFO DE 10 KVA PARA O CEMITÉRIO MUNICIPAL DAS PEROBAS'}) }}
+        </div>
+        <div class="licitation-files">
+            <div class="content-files">
+                <div class="d-flex gap-3 mb-3">
+                    {{ include ('licitation_view/components/_button.html.twig', {'name': 'Filtrar', 'id': 'btn-filter', 'icon_name': 'fa-search'}) }}
+                    {{ include ('licitation_view/components/_button.html.twig', {'name': 'Exportar todos', 'id': 'btn-export', 'icon_name': 'fa-export'}) }}
+                </div>
+                <span class="d-block mb-3">4 arquivos</span>
+                <div class="d-flex flex-column gap-3">
+                    {{ include ('licitation_view/components/_card_file.html.twig', {'title': 'NEXO IV- CRONOGRAMA FISICO FINANCEIRO', 'type': 'pdf'}) }}
+                    {{ include ('licitation_view/components/_card_file.html.twig', {'title': 'NEXO IV- CRONOGRAMA FISICO FINANCEIRO', 'type': 'pdf'}) }}
+                    {{ include ('licitation_view/components/_card_file.html.twig', {'title': 'NEXO IV- CRONOGRAMA FISICO FINANCEIRO', 'type': 'office'}) }}
+                    {{ include ('licitation_view/components/_card_file.html.twig', {'title': 'NEXO IV- CRONOGRAMA FISICO FINANCEIRO', 'type': 'pdf'}) }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

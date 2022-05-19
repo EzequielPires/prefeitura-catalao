@@ -3,6 +3,11 @@
     padding-left: 332px;
     padding-right: 2rem;
 }
+.content-dashboard .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
 .content-dashboard .table {
     border-radius: 8px;
     overflow: hidden;
@@ -45,6 +50,7 @@
 }
 .filter-table .btn {
     display: flex;
+    height: 40px;
     align-items: center;
     justify-content: center;
     background: var(--main);
@@ -54,4 +60,15 @@
 }
 .filter-table .btn i {
     margin-right: .5rem;
+}
+@media (max-width: 992px) {
+    .content-dashboard {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media (max-width: 720px) {
+    #tabsBids {
+        display: none;
+    }
 }

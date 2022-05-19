@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+{% set route_name = app.request.attributes.get('_route') %}
+
+{% block title %}Hello BidsController!{% endblock %}
+
+{% block body %}
+    {{ include ('dashboard/components/navbar.html.twig', {'route_name': route_name}) }}
+    <div class="content-dashboard">
+        <h4 class="title">Licitações</h4>
+        {{ include ('dashboard/components/_tabs_bids.html.twig') }}
+    </div>
+{% endblock %}

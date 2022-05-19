@@ -1,0 +1,114 @@
+.content-licitation-view {
+    padding-top: 108px;
+    padding-left: 332px;
+    padding-right: 2rem;
+}
+.content-licitation-view .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+.content-licitation-view .licitation-details {
+    flex: 1;
+}
+.content-licitation-view .licitation-files {
+    flex: 1;
+    margin-left: 2rem;
+}
+.field-text {
+    flex: 1;
+    min-width: 148px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .35rem;
+    border-bottom: 1px solid #d9d9d9;
+}
+.field-text .field-text-title {
+    font-size: .875rem;
+    color: #999;
+    display: block;
+    margin-bottom: 6px;
+}
+.field-text .field-text-value {
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.licitation-files .content-files {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    padding: 16px;
+}
+.licitation-files .content-files .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main);
+    height: 40px;
+    border: 0;
+    border-radius: 6px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: 600;
+}
+.licitation-files .content-files .button i {
+    margin-left: .5rem;
+}
+.licitation-files .content-files .card-file {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: .75rem;
+}
+.licitation-files .content-files .card-file .title-file {
+    display: flex;
+    flex: 1;
+    color: #333;
+    font-size: .875rem;
+}
+.licitation-files .content-files .card-file .button-action {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: var(--main);
+    border-radius: 6px;
+}
+.licitation-files .content-files .card-file .button-action i {
+    width: 24px;
+    height: 24px;
+}
+.licitation-files .content-files .card-file .extesion-file {
+    margin-right: .5rem;
+}
+.licitation-files .content-files .card-file .extesion-file i {
+    width: 24px;
+    height: 24px;
+    background: var(--main);
+}
+@media (max-width: 1400px) {
+    .content-licitation-view {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    .content-licitation-view .licitation-files {
+        flex: 1;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 1400px) {
+    .content-licitation-view {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

@@ -1,37 +1,29 @@
-<table class="table">
+<table class="table table-striped">
     <thead class="table-dark">
     <tr>
-        <th scope="col">#</th>
-        <th scope="col">Modalidade</th>
-        <th scope="col">Número</th>
-        <th scope="col">Valor Estimado</th>
+        <th scope="col"></th>
+        <th scope="col">Modalidade / Número</th>
+        <th scope="col" id="price-item">Valor Estimado</th>
         <th scope="col">Publicação</th>
-        <th scope="col">Descrição</th>
+        <th scope="col" id="description-table">Descrição</th>
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-    </tr>
-    <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-        <td>@fat</td>
-        <td>@fat</td>
-    </tr>
-    <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
-        <td>@twitter</td>
-        <td>@twitter</td>
-    </tr>
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
+    {{ include ('components/_table_item.html.twig') }}
     </tbody>
 </table>
+{{ include ('components/_pagination_default.html.twig') }}
