@@ -1,0 +1,41 @@
+.swiper-notices-wall {
+    position: unset !important;
+}
+.swiper-notices-wall .swiper-slide {
+    width: 248px;
+    height: 164px;
+}
+.swiper-notices-wall .swiper-slide .notice-wall-item {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.swiper-notices-wall .swiper-slide .notice-wall-item .notice-wall-text {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.swiper-notices-wall .swiper-slide .notice-wall-item .notice-wall-created-at {
+    color: #555;
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.swiper-notices-wall.swiper .swiper-button-prev {
+    left: -32px;
+}
+.swiper-notices-wall.swiper .swiper-button-next {
+    right: -32px;
+}
+.swiper-notices-wall.swiper .swiper-button-next:after,
+.swiper-notices-wall.swiper .swiper-button-prev:after {
+    color: #fff;
+    font-size: 24px;
+}

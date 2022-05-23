@@ -123,3 +123,21 @@
     font-size: 1.125rem;
     margin-bottom: 1rem;
 }
+.news {
+    padding: 64px 0;
+}
+.notice-wall {
+    padding: 64px 0;
+    background: var(--main);
+}
+.notice-wall .title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: .25rem;
+}
+.notice-wall p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}

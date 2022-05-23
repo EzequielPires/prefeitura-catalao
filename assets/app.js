@@ -1,4 +1,5 @@
 import './js/helpers/bootstrap';
+import './js/helpers/swiper_stories';
 import './js/scripts/btn_aside_show';
 import './js/scripts/input_search_mobile';
 import './js/scripts/btn_accessibility';
@@ -12,5 +13,6 @@ import './styles/btn_acessibility.css';
 import './styles/transparence.css';
 import './styles/licitation_view.css';
 import './styles/table_default.css';
+import './styles/_new_card.css';
 
 import './bootstrap';

@@ -1,0 +1,26 @@
+<div class="news container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="recent-news-tab" data-bs-toggle="tab" data-bs-target="#recent-news"
+                    type="button" role="tab" aria-controls="recent-news" aria-selected="true">Notícias recentes
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="selection-processes-tab" data-bs-toggle="tab" data-bs-target="#selection-processes" type="button"
+                    role="tab" aria-controls="selection-processes" aria-selected="false">Processos seletivos
+            </button>
+        </li>
+    </ul>
+    <div class="d-flex w-100 mt-4">
+        <div class="tab-pane fade show active w-100" id="recent-news" role="tabpanel" aria-labelledby="recent-news-tab">
+            <div class="d-flex w-100 gap-4 flex-wrap justify-content-evenly">
+                {{include ('home/components/_new_card_main.html.twig')}}
+                {{include ('home/components/_new_card.html.twig')}}
+                {{include ('home/components/_new_card.html.twig')}}
+            </div>
+        </div>
+        <div class="tab-pane fade" id="selection-processes" role="tabpanel" aria-labelledby="selection-processes-tab">
+            selection-processes
+        </div>
+    </div>
+</div>

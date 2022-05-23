@@ -53,6 +53,7 @@
 }
 .modal-accessibility .modal-accessibility-header span {
     color: var(--secondary);
+    font-size: .75rem !important;
     font-weight: 600;
 }
 .modal-accessibility .modal-accessibility-header button {
