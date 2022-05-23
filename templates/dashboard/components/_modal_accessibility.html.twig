@@ -1,12 +1,12 @@
 <div class="modal-accessibility">
     <div class="modal-accessibility-header">
         <span>Tamanho da fonte</span>
-        <button>A+</button>
-        <button>A</button>
-        <button>A-</button>
+        <button class="increase-font">A+</button>
+        <button class="reset-font">A</button>
+        <button class="decrease-font">A-</button>
     </div>
     <div class="modal-accessibility-body">
-        <button>{{ include ('components/_icon.html.twig', {'icon_name': 'fa-half'}) }}Alto Contraste</button>
+        <button class="btn-theme">{{ include ('components/_icon.html.twig', {'icon_name': 'fa-half'}) }}Alto Contraste</button>
         <a href="#">Teclas de Atalhos</a>
         <a href="#">Mapa do site</a>
     </div>

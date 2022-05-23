@@ -6,7 +6,7 @@
     font-size: 1.5rem;
     background: transparent;
     font-weight: 600;
-    color: #555;
+    color: var(--grey-500);
     padding: 0;
     margin-right: 48px;
 }
@@ -15,7 +15,7 @@
     font-size: 1.5rem;
     background: transparent;
     font-weight: 700;
-    color: #333;
+    color: var(--grey-300);
     padding: 0;
     margin-right: 48px;
     position: relative;
@@ -42,17 +42,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #00490F;
+    color: var(--secondary);
     text-decoration: none;
     font-weight: 600;
     text-align: center;
-    border: 2px solid #00490F;
+    border: 2px solid var(--secondary);
     border-radius: 8px;
     margin-left: 0;
     padding: 1rem;
 }
 .card-link:hover {
-    color: #00490F;
+    color: var(--secondary);
 }
 
 .tabs-main .card-main {
@@ -92,7 +92,7 @@
 .input-search-tabs button {
     height: 48px;
     width: 160px;
-    background: #26893A;
+    background: var(--secondary);
     border-radius: 8px;
     border: 0;
     color: #fff;
@@ -102,14 +102,14 @@
 .input-search-tabs i {
     width: 1.5rem;
     height: 1.5rem;
-    background: #26893A;
+    background: var(--secondary);
     position: absolute;
     left: .75rem;
 }
 .stories {
     height: 300px;
     width: 100%;
-    background: #26893A;
+    background: var(--secondary-background);
     padding: 48px 0;
 }
 .stories .title {
@@ -140,4 +140,23 @@
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.125rem;
     margin-bottom: 1rem;
+}
+.about-city {
+    padding: 64px 0;
+}
+.about-city  .about-city-content {
+    width: 100%;
+    max-width: 500px;
+}
+.about-city  .about-city-content .about-city-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 16px;
+}
+.about-city  .about-city-content .about-city-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 0;
 }

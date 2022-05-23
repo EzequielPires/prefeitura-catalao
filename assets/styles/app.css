@@ -1,22 +1,36 @@
 @import "~bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
-
+:root {
+    --main: #FAA21C;
+    --main-light: #F8B917;
+    --secondary: #26893A;
+    --secondary-background: #26893A;
+    --background: #fafafa;
+    --text-link: #333;
+    --text: #555;
+    --grey-100: #1d1d1d;
+    --grey-200: #222;
+    --grey-300: #333;
+    --grey-500: #555;
+}
 html,
 body {
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    background-color: #fafafa !important;
+    background-color: var(--background) !important;
+    font-size: inherit;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box !important;
     font-family: "Open Sans", sans-serif;
 }
-:root {
-    --main: #FAA21C;
-    --main-light: #F8B917;
-    --secondary: #26893A;
+html {
+    text-rendering: optimizeLegibility;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+

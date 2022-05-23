@@ -126,3 +126,13 @@
     mask: url('../images/half.svg') no-repeat center;
     -webkit-mask: url('../images/half.svg') no-repeat center;
 }
+.fa-google-play {
+    mask-image: url('../images/google-play.svg');
+    mask: url('../images/google-play.svg') no-repeat center;
+    -webkit-mask: url('../images/google-play.svg') no-repeat center;
+}
+.fa-apple-store {
+    mask-image: url('../images/apple-store.svg');
+    mask: url('../images/apple-store.svg') no-repeat center;
+    -webkit-mask: url('../images/apple-store.svg') no-repeat center;
+}

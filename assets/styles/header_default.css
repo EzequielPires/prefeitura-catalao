@@ -30,24 +30,24 @@
     align-items: center;
 }
 .header-default .nav-top .nav-links li a {
-    color: #333;
-    font-size: 1rem;
+    color: var(--grey-300);
+    font-size: 16px;
     text-decoration: none;
 }
 .header-default .nav-top .nav-links li.active:after {
     content: '';
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
     left: 0;
-    height: 6px;
+    height: 4px;
     width: 100%;
     z-index: 999;
-    background: #1d1d1d;
+    background: var(--grey-100);
     border-radius: 4px;
 }
 .header-default .nav-top .nav-links li.active a {
     font-weight: 700;
-    color: #1d1d1d;
+    color: var(--grey-100);
 }
 .header-default .nav-top .nav-links li:last-child {
     margin-right: 0;
