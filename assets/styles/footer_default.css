@@ -1,9 +1,9 @@
 .footer-default {
-    height: 392px;
+    min-height: 392px;
     background: var(--main);
 }
 .footer-default .col-main {
-    height: 392px;
+    min-height: 100%;
     position: relative;
     z-index: 1;
 }
@@ -35,7 +35,7 @@
     text-decoration: none;
     border-radius: 6px;
     border: 1px solid #fff;
-    max-width: 180px;
+    min-width: 180px;
     padding: 0 1rem ;
 }
 .footer-default .col-main .content a i {
@@ -54,7 +54,7 @@
     bottom:0;
     right:0;
     display: flex;
-    height: 408px;
+    height: 416px;
     border-radius: 0 16px 0 0;
     width: 200%;
     background: #333;
@@ -73,16 +73,21 @@
 }
 .rodape {
     display: flex;
+    flex-wrap: wrap;
+    padding: .75rem;
     width: 100%;
-    height: 64px;
+    min-height: 64px;
     background: #3a3a3a;
 }
 .rodape p {
+    text-align: center;
     font-size: .875rem;
     color: #fff;
     margin-bottom: 0;
 }
 .rodape a {
+    display: flex;
+    text-align: center;
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;

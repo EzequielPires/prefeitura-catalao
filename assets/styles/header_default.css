@@ -52,3 +52,9 @@
 .header-default .nav-top .nav-links li:last-child {
     margin-right: 0;
 }
+
+@media (max-width: 992px) {
+    .nav-top {
+        display: none !important;
+    }
+}

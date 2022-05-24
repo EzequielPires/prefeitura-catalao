@@ -27,7 +27,7 @@ const swiper_notices_all = new Swiper('.swiper-notices-wall', {
 const swiper_city_gallery = new Swiper('.swiper-city-gallery', {
     modules: [Navigation, Pagination],
     spaceBetween: 16,
-    slidesPerView: 3,
+    slidesPerView: 'auto',
     centeredSlides: true,
     loop: true,
     loopFillGroupWithBlank: true,

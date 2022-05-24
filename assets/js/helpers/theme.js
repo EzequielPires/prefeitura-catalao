@@ -10,6 +10,7 @@ const handleThemeDark = () => {
     document.body.style.setProperty('--grey-500', '#F8B917');
     document.body.style.setProperty('--secondary', '#F8B917');
     document.body.style.setProperty('--text', 'rgba(255, 255, 255, 0.8)');
+    document.body.style.setProperty('--white', '#1d1d1d');
 }
 const handleThemeDefault = () => {
     btn.classList.remove('dark');
@@ -22,6 +23,7 @@ const handleThemeDefault = () => {
     document.body.style.setProperty('--grey-500', '#555');
     document.body.style.setProperty('--secondary', '#26893A');
     document.body.style.setProperty('--text', '#555');
+    document.body.style.setProperty('--white', '#fff');
 }
 const setTheme = () => {
     btn.classList.contains('dark') ? handleThemeDefault() : handleThemeDark();

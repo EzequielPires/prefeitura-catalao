@@ -3,6 +3,7 @@
 :root {
     --main: #FAA21C;
     --main-light: #F8B917;
+    --white: #fff;
     --secondary: #26893A;
     --secondary-background: #26893A;
     --background: #fafafa;
@@ -20,6 +21,10 @@ body {
     font-family: "Open Sans", sans-serif;
     background-color: var(--background) !important;
     font-size: inherit;
+}
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 * {
     margin: 0;

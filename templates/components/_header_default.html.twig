@@ -32,11 +32,24 @@
     </div>
     <nav class="navbar">
         <div class="container">
-            <a class="brand" href="/">
-                <img src="{{ asset('images/logo-white.svg') }}" alt="Logo"/>
-            </a>
+            <div class="brand-section">
+                <a href="/">
+                    <img src="{{ asset('images/logo-white.svg') }}" alt="Logo"/>
+                </a>
+                <div class="d-flex align-items-center">
+                    <button class="btn-search">
+                        {{ include ('components/_icon.html.twig', {'icon_name': 'fa-search'}) }}
+                    </button>
+                    {% include 'dashboard/components/_input_search_mobile.html.twig' %}
+                    <button id="btn-menu" class="d-flex d-lg-none">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
             {{ include ('dashboard/components/_input_search.html.twig') }}
-            <div class="group-icons d-flex align-items-center gap-3">
+            <div class="group-icons d-none d-lg-flex align-items-center gap-3">
                 <a href="/">
                     {{ include ('components/_icon.html.twig', {'icon_name': 'fa-instagram'}) }}
                 </a>

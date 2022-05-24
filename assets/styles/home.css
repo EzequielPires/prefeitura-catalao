@@ -34,7 +34,8 @@
     width: 80%;
 }
 .tab-content {
-    width: 928px !important;
+    width: 100%;
+    max-width: 928px !important;
 }
 .card-link {
     width: 160px;
@@ -124,7 +125,21 @@
     margin-bottom: 1rem;
 }
 .news {
-    padding: 64px 0;
+    padding: 64px .75rem;
+}
+.news .btn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 348px;
+    height: 48px;
+    background: var(--secondary);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
 }
 .notice-wall {
     padding: 64px 0;
@@ -159,4 +174,42 @@
     font-weight: 400;
     color: var(--text);
     margin-bottom: 0;
+}
+.tabs-main {
+    flex: 1;
+    min-width: 344px;
+    max-width: 344px;
+}
+
+@media (max-width: 1200px) {
+    .nav-tabs .nav-item .nav-link,
+    .nav-tabs .nav-item .nav-link.active{
+        font-size: 1rem;
+        margin-right: 24px;
+    }
+    .card-link {
+        flex: 1;
+        min-width: 160px;
+    }
+    .tabs-main {
+        flex: 1;
+        min-width: unset;
+        max-width: unset;
+    }
+    .tabs-main .card-main {
+        min-width: 160px;
+        flex: 1;
+    }
+    .input-search-tabs {
+        padding: 0;
+    }
+    .about-city  .about-city-content .about-city-title {
+        font-size: 1.5rem;
+    }
+    .about-city  .about-city-content .about-city-description {
+        font-size: .875rem;
+        font-weight: 400;
+        color: var(--text);
+        margin-bottom: 0;
+    }
 }
