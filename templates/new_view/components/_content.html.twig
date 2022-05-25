@@ -1,7 +1,40 @@
 <div class="container news-content">
     <div class="row">
         <div class="col-md-9">
-
+            <div class="news-content-view">
+                <div class="d-flex w-100 justify-content-center">
+                    <div class="content-image">
+                        <img src="http://www.catalao.go.gov.br/site/v4/upload/noticias/destaque/a2f5ce976b3c66027c924bb4d5359771.jpg"
+                             alt="">
+                        <span class="created-at">
+                        {{ include ('components/_icon.html.twig', {'icon_name': 'fa-clock'}) }}
+                        Publicado em: 24/05/2022
+                    </span>
+                    </div>
+                </div>
+                <h2 class="news-title">Covid-19: Saúde convoca adolescentes com imunossupressão de 12 a 17 anos para
+                    receberem a terceira dose da vacina</h2>
+                <p class="news-subtitle">Catalão segue a todo vapor com o Plano Nacional da Vacinação contra a Covid-19
+                    para crianças. Nesta quarta-feira (25), a primeira dose da vacina pediátrica continuará liberada
+                    para todas as crianças que tenham entre 5 e 11 anos de idade.</p>
+                <div class="btn_wrap">
+                    <span>Compartilhar</span>
+                    <div class="container-icons">
+                        <a href="https://www.facebook.com/search/top?q=prefeitura%20de%20catal%C3%A3o" target="_blank">
+                            {{ include ('components/_icon.html.twig', {'icon_name': 'fa-facebook'}) }}
+                        </a>
+                        <a href="https://www.instagram.com/prefeituradecatalaogo/" target="_blank">
+                            {{ include ('components/_icon.html.twig', {'icon_name': 'fa-instagram'}) }}
+                        </a>
+                        <a href="https://twitter.com/naboadirecao" target="_blank">
+                            {{ include ('components/_icon.html.twig', {'icon_name': 'fa-twitter'}) }}
+                        </a>
+                        <a href="https://www.linkedin.com/company/prefeitura-municipal-de-catal%C3%A3o/" target="_blank">
+                            {{ include ('components/_icon.html.twig', {'icon_name': 'fa-linkedin'}) }}
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-md-3">
             <span class="news-content-title">Categorias</span>

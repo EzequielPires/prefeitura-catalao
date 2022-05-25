@@ -136,3 +136,18 @@
     mask: url('../images/apple-store.svg') no-repeat center;
     -webkit-mask: url('../images/apple-store.svg') no-repeat center;
 }
+.fa-clock {
+    mask-image: url('../images/clock.svg');
+    mask: url('../images/clock.svg') no-repeat center;
+    -webkit-mask: url('../images/clock.svg') no-repeat center;
+}
+.fa-linkedin {
+    mask-image: url('../images/linkedin.svg');
+    mask: url('../images/linkedin.svg') no-repeat center;
+    -webkit-mask: url('../images/linkedin.svg') no-repeat center;
+}
+.fa-twitter{
+    mask-image: url('../images/twitter.svg');
+    mask: url('../images/twitter.svg') no-repeat center;
+    -webkit-mask: url('../images/twitter.svg') no-repeat center;
+}
