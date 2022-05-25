@@ -7,7 +7,7 @@
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="selection-processes-tab" data-bs-toggle="tab" data-bs-target="#selection-processes" type="button"
-                    role="tab" aria-controls="selection-processes" aria-selected="false">Processos seletivos
+                    role="tab" aria-controls="selection-processes" aria-selected="false">Covid-19
             </button>
         </li>
     </ul>
@@ -15,6 +15,26 @@
         <div class="tab-pane fade show active w-100" id="recent-news" role="tabpanel" aria-labelledby="recent-news-tab">
             <div class="d-flex w-100 gap-4 flex-wrap justify-content-evenly">
                 {{include ('home/components/_new_card_main.html.twig')}}
+                {{include ('home/components/_new_card.html.twig')}}
+                {{include ('home/components/_new_card.html.twig')}}
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+            <a href="/noticias" class="btn-more">Ver todas as notícias</a>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="recent-news-tab" data-bs-toggle="tab" data-bs-target="#recent-news"
+                    type="button" role="tab" aria-controls="recent-news" aria-selected="true">Processos seletivos
+            </button>
+        </li>
+    </ul>
+    <div class="d-flex w-100 mt-4">
+        <div class="tab-pane fade show active w-100" id="recent-news" role="tabpanel" aria-labelledby="recent-news-tab">
+            <div class="d-flex w-100 gap-4 flex-wrap justify-content-evenly">
+                {{include ('home/components/_new_card.html.twig')}}
+                {{include ('home/components/_new_card.html.twig')}}
                 {{include ('home/components/_new_card.html.twig')}}
                 {{include ('home/components/_new_card.html.twig')}}
             </div>

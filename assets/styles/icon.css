@@ -151,3 +151,28 @@
     mask: url('../images/twitter.svg') no-repeat center;
     -webkit-mask: url('../images/twitter.svg') no-repeat center;
 }
+.fa-e-siq{
+    mask-image: url('../images/e-siq.svg');
+    mask: url('../images/e-siq.svg') no-repeat center;
+    -webkit-mask: url('../images/e-siq.svg') no-repeat center;
+}
+.fa-invoice{
+    mask-image: url('../images/nota-fiscal.svg');
+    mask: url('../images/nota-fiscal.svg') no-repeat center;
+    -webkit-mask: url('../images/nota-fiscal.svg') no-repeat center;
+}
+.fa-ombudsman{
+    mask-image: url('../images/ouvidoria.svg');
+    mask: url('../images/ouvidoria.svg') no-repeat center;
+    -webkit-mask: url('../images/ouvidoria.svg') no-repeat center;
+}
+.fa-government{
+    mask-image: url('../images/government.svg');
+    mask: url('../images/government.svg') no-repeat center;
+    -webkit-mask: url('../images/government.svg') no-repeat center;
+}
+.fa-warning{
+    mask-image: url('../images/warning.svg');
+    mask: url('../images/warning.svg') no-repeat center;
+    -webkit-mask: url('../images/warning.svg') no-repeat center;
+}

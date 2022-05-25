@@ -41,16 +41,25 @@
     width: 160px;
     height: 100px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: var(--secondary);
+    background: var(--white);
     text-decoration: none;
+    font-size: .875rem;
     font-weight: 600;
     text-align: center;
-    border: 2px solid var(--secondary);
+    border: 1px solid #ddd;
     border-radius: 8px;
     margin-left: 0;
-    padding: 1rem;
+    padding: .75rem 1rem;
+}
+.card-link i {
+    width: 24px;
+    height: 24px;
+    background: var(--secondary);
+    margin-bottom: .5rem;
 }
 .card-link:hover {
     color: var(--secondary);
@@ -60,6 +69,7 @@
     width: 160px;
     height: 136px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -68,6 +78,11 @@
     color: #fff;
     font-weight: 700;
     text-decoration: none;
+}
+.tabs-main .card-main i {
+    width: 32px;
+    height: 32px;
+    margin-bottom: .5rem;
 }
 .input-search-tabs {
     width: 100%;
@@ -83,8 +98,9 @@
     height: 48px;
     width: 100%;
     border-radius: 8px;
-    border: 1px solid #26893A;
+    border: 1px solid #ddd;
     padding-left: 40px;
+    transition: .3s;
 }
 .input-search-tabs input:focus {
     outline: 0;
@@ -110,7 +126,7 @@
 .stories {
     height: 300px;
     width: 100%;
-    background: var(--secondary-background);
+    background: #2e2e2e;
     padding: 48px 0;
 }
 .stories .title {

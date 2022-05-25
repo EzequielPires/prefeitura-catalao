@@ -1,0 +1,20 @@
+.breadcrumb li {
+    display: flex;
+    margin-right: .25rem !important;
+}
+.breadcrumb a {
+    font-size: .75rem;
+    display: flex;
+    text-decoration: none;
+    color: var(--grey-300);
+    font-weight: 600;
+    padding-right: .25rem;
+    text-transform: uppercase;
+}
+.breadcrumb a:hover {
+    color: var(--secondary);
+}
+.breadcrumb span {
+    font-size: .75rem;
+    text-transform: uppercase;
+}

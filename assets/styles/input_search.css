@@ -84,3 +84,34 @@
 .input-search-mobile.show {
     top: 0;
 }
+
+.input-search-default {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+.input-search-default input {
+    width: 100%;
+    height: 48px;
+    border-radius: 6px;
+    padding: .75rem;
+    border: 1px solid #d3d3d3;
+}
+.input-search-default input:focus,
+.input-search-default input:focus-visible {
+    outline: 0;
+    border: 1px solid #d3d3d3;
+}
+.input-search-default button {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: var(--main);
+    border-radius: 6px;
+    margin-left: .25rem;
+}

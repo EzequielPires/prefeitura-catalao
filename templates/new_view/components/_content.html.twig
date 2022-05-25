@@ -1,6 +1,7 @@
 <div class="container news-content">
+    {{ include ('components/_breadcrumb.html.twig') }}
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-8">
             <div class="news-content-view">
                 <div class="d-flex w-100 justify-content-center">
                     <div class="content-image">
@@ -29,16 +30,48 @@
                         <a href="https://twitter.com/naboadirecao" target="_blank">
                             {{ include ('components/_icon.html.twig', {'icon_name': 'fa-twitter'}) }}
                         </a>
-                        <a href="https://www.linkedin.com/company/prefeitura-municipal-de-catal%C3%A3o/" target="_blank">
+                        <a href="https://www.linkedin.com/company/prefeitura-municipal-de-catal%C3%A3o/"
+                           target="_blank">
                             {{ include ('components/_icon.html.twig', {'icon_name': 'fa-linkedin'}) }}
                         </a>
                     </div>
                 </div>
+                <div class="news-content-complete mt-5">
+                    <div><p>O Tribunal Superior do Trabalho (TST) publicou uma cartilha para ajudar trabalhadores e
+                            empresas na conciliação, de forma a resolver processos que tramitem na Justiça do Trabalho.
+                            De acordo com o TST, o objetivo é encontrarem uma solução “mais rápida e prática” para o
+                            conflito.</p>
+                        <p><img style="display: block; margin-left: auto; margin-right: auto;"
+                                src="https://portalcatalao.com.br/storage/images/publication/1bb903012a65352d1c968b83518edbc3.jpg"
+                                alt="" width="600" height="359"></p>
+                        <p>A cartilha Conciliação Trabalhista - Um guia para buscar um acordo em seu processo foi
+                            lançada em meio às comemorações da Semana Nacional da Conciliação Trabalhista 2022, e pode
+                            ser acessada na página da Corte trabalhista.</p>
+                        <p>De acordo com o TST, a cartilha “busca, em linguagem simples e didática, explicar como
+                            funciona esse mecanismo efetivo e célere de solução das disputas judiciais. O guia informa,
+                            por exemplo, que mesmo sendo o ramo mais célere do Poder Judiciário, um processo trabalhista
+                            pode durar em média 2 anos [entre decisões, recursos e tramitação nos três graus de
+                            jurisdição]. Ao optar pela conciliação, a solução do processo acontece no mesmo dia”.</p>
+                        <p>Ainda segundo o tribunal, a cartilha apresenta uma lista de dez motivos para a conciliação e
+                            detalha quem pode solicitar a conciliação, quando ela pode ser feita no processo trabalhista
+                            e como funciona uma audiência na Justiça do Trabalho. Além disso, indica os contatos dos
+                            centros de conciliação distribuídos em todas as regiões do Brasil.</p>
+                        <p>Mutirão</p>
+                        <p>Na Semana Nacional da Conciliação Trabalhista, 24 tribunais regionais do Trabalho de todo o
+                            país se reúnem em “esforço concentrado” para finalizar processos por meio da
+                            conciliação.</p>
+                        <p>“A conciliação pode ser requisitada a qualquer hora, independentemente da fase em que o
+                            processo se encontra. Atualmente, cerca de 2 milhões de processos tramitam nas instâncias
+                            trabalhistas”, informa o TST.<br><br><br><span style="font-size: 8pt;">informações Agência Brasil</span>
+                        </p></div>
+                </div>
             </div>
         </div>
-        <div class="col-md-3">
-            <span class="news-content-title">Categorias</span>
-            {{ include ('news/components/_list_categories.html.twig') }}
+        <div class="col-md-4 ps-md-5">
+            <span class="d-block news-content-title mb-3">Buscar conteudo</span>
+            {{ include ('components/_input_search.html.twig') }}
+            <span class="d-block news-content-title mt-4">Categorias</span>
+            {{ include ('news_list/components/_list_categories.html.twig') }}
         </div>
     </div>
 </div>

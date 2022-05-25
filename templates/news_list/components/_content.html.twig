@@ -1,0 +1,13 @@
+<div class="container news-content">
+    {{ include ('components/_breadcrumb.html.twig') }}
+    <div class="row">
+        <div class="col-md-9">
+            <span class="news-content-title">Notícias {{ category_name is defined ? 'em ' }}{{ category_name is defined ? category_name | capitalize }}</span>
+            {{ include ('news_list/components/_list_news.html.twig') }}
+        </div>
+        <div class="col-md-3">
+            <span class="news-content-title">Categorias</span>
+            {{ include ('news_list/components/_list_categories.html.twig') }}
+        </div>
+    </div>
+</div>

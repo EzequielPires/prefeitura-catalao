@@ -9,6 +9,7 @@ import './js/scripts/btn_accessibility';
 import './styles/app.css';
 import './styles/header-transparencia.css';
 import './styles/news.css';
+import './styles/breadcrumb.css';
 import './styles/header_default.css';
 import './styles/footer_default.css';
 import './styles/icon.css';

@@ -1,3 +1,6 @@
 <a class="card-link m-0" href="{{ link is defined ? link }}">
+    {% if icon_name is defined %}
+        {{ include ('components/_icon.html.twig', {'icon_name': icon_name}) }}
+    {% endif %}
     {{ name is defined ? name }}
 </a>
