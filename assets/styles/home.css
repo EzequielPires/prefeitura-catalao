@@ -44,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--secondary);
+    color: var(--grey-500);
     background: var(--white);
     text-decoration: none;
     font-size: .875rem;
@@ -58,11 +58,14 @@
 .card-link i {
     width: 24px;
     height: 24px;
-    background: var(--secondary);
+    background: #808080;
     margin-bottom: .5rem;
 }
 .card-link:hover {
     color: var(--secondary);
+}
+.card-link:hover i{
+    background: var(--secondary);
 }
 
 .tabs-main .card-main {

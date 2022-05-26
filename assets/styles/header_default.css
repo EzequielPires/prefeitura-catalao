@@ -7,7 +7,7 @@
     height: 120px;
     background-color: var(--main) !important;
 }
-.header-default .navbar .brand img{
+.header-default .navbar .brand-section img{
     height: 80px;
 }
 .header-default .navbar input:focus{

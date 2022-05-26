@@ -1,4 +1,4 @@
-import Swiper, {Navigation, Pagination} from 'swiper';
+import Swiper, {EffectCube, Navigation, Pagination} from 'swiper';
 import '../../styles/swiper_stories.css';
 import '../../styles/swiper_notices_wall.css';
 import '../../styles/swiper_city_gallery.css';
