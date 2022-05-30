@@ -5,12 +5,89 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 10 !important;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.story-close {
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    background: transparent;
+    border: 0;
+    z-index: 9999;
+}
+.story-close i {
+    width: 24px;
+    height: 24px;
+}
+.story {
+    display: none;
+    opacity: 0;
+    transition: .3s;
+}
+.story.show {
+    display: flex;
+    opacity: 1;
+}
 .story-view {
+    position: unset !important;
+    width: 400px;
+    height: 90%;
+}
+
+.story-view .swiper-button-prev {
+    left: -48px;
+}
+.story-view .swiper-button-prev-story:after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: block;
+    -webkit-mask-size: 100%!important;
+    mask-size: 100%!important;
+    background-color: #fff;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    color: transparent;
+    mask-image: url('../images/arrow-left-solid.svg');
+    mask: url('../images/arrow-left-solid.svg') no-repeat center;
+    -webkit-mask: url('../images/arrow-left-solid.svg') no-repeat center;
+    z-index: 9999;
+}
+.story-view .swiper-button-next-story:after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: block;
+    -webkit-mask-size: 100%!important;
+    mask-size: 100%!important;
+    background-color: #fff;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    color: transparent;
+    mask-image: url('../images/arrow-right-solid.svg');
+    mask: url('../images/arrow-right-solid.svg') no-repeat center;
+    -webkit-mask: url('../images/arrow-right-solid.svg') no-repeat center;
+    z-index: 9999;
+}
+.story-view-gallery .swiper-button-prev {
+    left: 16px;
+}
+.story-view-gallery .swiper-button-prev:after,
+.story-view-gallery .swiper-button-next:after {
+    font-size: 24px;
+    color: #fff;
+}
+.story-view .swiper-button-next {
+    right: -48px;
+}
+.story-view-gallery .swiper-button-next {
+    right: 16px;
+}
+.story-wrapper{
+    position: relative;
     width: 400px;
     height: 90%;
 }

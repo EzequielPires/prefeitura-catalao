@@ -1,11 +1,18 @@
-<div class="story-overflow">
-    <div class="swiper swiper-3d story-view">
-        <div class="swiper-wrapper">
-            {{ include('components/stories_view/_gallery.html.twig') }}
-            {{ include('components/stories_view/_gallery.html.twig') }}
-            {{ include('components/stories_view/_gallery.html.twig') }}
-            {{ include('components/stories_view/_gallery.html.twig') }}
-            {{ include('components/stories_view/_gallery.html.twig') }}
+<div class="story-overflow story">
+    <div class="story-wrapper">
+        <div class="swiper swiper-3d story-view">
+            <div class="swiper-wrapper">
+                {{ include('components/stories_view/_gallery.html.twig') }}
+                {{ include('components/stories_view/_gallery.html.twig') }}
+                {{ include('components/stories_view/_gallery.html.twig') }}
+                {{ include('components/stories_view/_gallery.html.twig') }}
+                {{ include('components/stories_view/_gallery.html.twig') }}
+            </div>
+            <div class="swiper-button-prev swiper-button-prev-story"></div>
+            <div class="swiper-button-next swiper-button-next-story"></div>
+            <button class="story-close">
+                {{ include('components/_icon.html.twig', {'icon_name': 'fa-close'}) }}
+            </button>
         </div>
     </div>
 </div>
