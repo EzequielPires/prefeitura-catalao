@@ -228,3 +228,23 @@
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+.quick-acess-list {
+    padding: 0;
+    margin: 0;
+}
+.quick-acess-list li {
+    list-style: none;
+    flex: 1;
+    min-width: 40%;
+}
+.quick-acess-list li a {
+    width: 100%;
+    font-size: 1.125rem;
+    background: var(--main);
+    color: var(--grey-200);
+    border: 0;
+}
+.quick-acess-list li a.active {
+    background: var(--secondary);
+    color: #fff;
+}
