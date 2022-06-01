@@ -248,3 +248,45 @@
     background: var(--secondary);
     color: #fff;
 }
+.swiper-related-news .swiper-slide {
+    width: unset;
+}
+.swiper-related-news .swiper-slide .new-card {
+    width: 280px !important ;
+}
+.swiper-related-news .swiper-slide .new-card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--grey-200);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.swiper-related-news .swiper-slide .new-card p {
+    font-size: .875rem;
+    font-weight: 600;
+    color: var(--grey-200);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.swiper-related-news .swiper-slide .new-card .card-header {
+    height: 180px;
+}
+.swiper-related-news.swiper .swiper-button-next ,
+.swiper-related-news.swiper .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1d1d1d80;
+    backdrop-filter: blur(24px);
+}
+.swiper-related-news.swiper .swiper-button-next:after,
+.swiper-related-news.swiper .swiper-button-prev:after {
+    color: var(--white);
+    font-size: 16px;
+}
