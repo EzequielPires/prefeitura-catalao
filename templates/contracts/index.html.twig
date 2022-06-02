@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Contratos{% endblock %}
+
+{% block body %}
+    {{ include ('dashboard/components/navbar.html.twig', {'route_name': route_name}) }}
+    <div class="content-dashboard">
+        <h4 class="title">Contratos</h4>
+        {{ include ('dashboard/components/_tabs_bids.html.twig') }}
+    </div>
+{% endblock %}

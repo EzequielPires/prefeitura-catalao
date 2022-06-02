@@ -99,6 +99,12 @@
     padding-left: 2rem;
     margin-bottom: 1rem;
 }
+.menu-aside ul li a.active {
+    color: var(--main);
+}
+.menu-aside ul li a.active i {
+    background: var(--main);
+}
 .menu-aside ul li a span {
     white-space: nowrap;
     overflow: hidden;

@@ -15,8 +15,8 @@
         </button>
     </li>
     <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contributors-tab" data-bs-toggle="tab" data-bs-target="#contributors" type="button"
-                role="tab" aria-controls="contributors" aria-selected="false">Colaboradores
+        <button class="nav-link" id="collaborator-tab" data-bs-toggle="tab" data-bs-target="#collaborator" type="button"
+                role="tab" aria-controls="collaborator" aria-selected="false">Colaboradores
         </button>
     </li>
 </ul>
@@ -24,9 +24,9 @@
     <div class="d-flex flex-column">
         <div class="tab-content mt-4" id="myTabContent">
             {{ include ('home/components/tabs_body/_transparence.html.twig') }}
-            <div class="tab-pane fade" id="services" role="tabpanel" aria-labelledby="services-tab">2</div>
-            <div class="tab-pane fade" id="covid" role="tabpanel" aria-labelledby="covid-tab">3</div>
-            <div class="tab-pane fade" id="contributors" role="tabpanel" aria-labelledby="contributors-tab">4</div>
+            {{ include ('home/components/tabs_body/_services.html.twig') }}
+            {{ include ('home/components/tabs_body/_covid.html.twig') }}
+            {{ include ('home/components/tabs_body/_collaborator.html.twig') }}
         </div>
         {{include ('home/components/tabs_body/components/_input_search.html.twig')}}
     </div>

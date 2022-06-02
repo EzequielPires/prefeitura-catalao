@@ -1,0 +1,24 @@
+.dashboard-home ul {
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.dashboard-home ul .title {
+    font-size: 1.2rem;
+    color: var(--main);
+    margin-bottom: .75rem;
+    display: block;
+}
+
+.dashboard-home ul li {
+    list-style: none;
+    margin-bottom: .5rem;
+}
+.dashboard-home ul li a {
+    text-decoration: none;
+    color: var(--grey-200);
+    transition: .3s;
+}
+.dashboard-home ul li a:hover {
+    color: var(--secondary);
+}

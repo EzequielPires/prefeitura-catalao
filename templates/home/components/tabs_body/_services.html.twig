@@ -1,0 +1,14 @@
+<div class="tab-pane fade show" id="services" role="tabpanel" aria-labelledby="services-tab">
+    <div class="d-flex flex-wrap gap-4">
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'COLABORADOR', 'link': 'http://sig.catalao.go.gov.br/sig/app.html#/servicosonline/index'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'IPTU', 'link': 'http://transparencia.catalao.go.gov.br/sig/app.html#/servicosonline/debito-contribuinte', 'target': 'true'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'SERVIÇOS ONLINE', 'link': 'http://transparencia.catalao.go.gov.br/sig/app.html#/servicosonline/index', 'target': 'false'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'NOTA FISCAL ELETRÔNICA', 'link': 'p/nota-fiscal-eletronica', 'target': 'false',  '': 'fa-file-dollar'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'DENUNCIA FISCAL', 'link': 'http://transparencia.catalao.go.gov.br/sig/app.html#/servicosonline/nfe-denuncia-fiscal', 'target': 'true'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'CADASTRO DE CONTRUBUINTE', 'link': 'http://catalao1.tempsite.ws/contribuinte/', 'target': 'true'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'EDITAIS E TERMOS', 'link': '/transparencia/editais-termos', 'false': 'true'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'CERTIDÃO NEGATVA', 'link': '/p/certidoes-negativa', 'target': 'false'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'MURAL DE AVISOS', 'link': 'http://www.catalao.go.gov.br/#mural', 'target': 'false'})}}
+        {{include ('home/components/tabs_body/components/_card_link.html.twig', {'name': 'CONSULTA DEBITO IMÓVEIS', 'link': 'http://transparencia.catalao.go.gov.br/sig/app.html#/servicosonline/debito-imovel', 'target': 'true'})}}
+    </div>
+</div>

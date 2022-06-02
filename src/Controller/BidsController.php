@@ -14,6 +14,7 @@ class BidsController extends AbstractController
     {
         return $this->render('dashboard/index.html.twig', [
             'controller_name' => 'DashboardController',
+            'route_name' => 'home'
         ]);
     }
 
@@ -22,6 +23,7 @@ class BidsController extends AbstractController
     {
         return $this->render('licitation/index.html.twig', [
             'controller_name' => 'BidsController',
+            'route_name' => 'licitacoes'
         ]);
     }
     #[Route('/licitacoes/{id}', name: 'app_transparence_licitation_view')]
@@ -32,4 +34,12 @@ class BidsController extends AbstractController
             'licitation' => $id
         ]);
     }
+    #[Route('/contratos', name: 'app_transparence_contracts')]
+        public function contracts(): Response
+        {
+            return $this->render('contracts/index.html.twig', [
+                'controller_name' => 'BidsController',
+                'route_name' => 'contratos'
+            ]);
+        }
 }

@@ -1,85 +1,85 @@
 <nav class="menu-aside">
     <ul>
-        <li class="link {{ route_name matches '{home}' ? 'active' }}">
-            <a href="">
+        <li>
+            <a href="/transparencia" class="link {{ route_name is same as('home') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-home'}) }}
                 <span>Home</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/licitacoes" class="link {{ route_name is same as('licitacoes') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-gavel'}) }}
                 <span>Licitações</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/contratos" class="link {{ route_name is same as('contratos') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-file'}) }}
                 <span>Contratos</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/convenios" class="link {{ route_name is same as('convenios') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-file'}) }}
                 <span>Convênios</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/concursos" class="link {{ route_name is same as('concursos') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-list'}) }}
                 <span>Concursos</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/gestao-fiscal" class="link {{ route_name is same as('gestao-fiscal') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-file'}) }}
                 <span>Gestão Fiscal</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/legislacao" class="link {{ route_name is same as('legislacao') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-balanced'}) }}
                 <span>Legislação</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/prestacao-contas" class="link {{ route_name is same as('prestacao-contas') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-chart-pie'}) }}
                 <span>Prestação de Contas</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/despesas" class="link {{ route_name is same as('despesas') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-coins'}) }}
                 <span>Despesas</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/receitas" class="link {{ route_name is same as('receitas') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-file-dollar'}) }}
                 <span>Receitas</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/folha-pagamento" class="link {{ route_name is same as('folha-pagamento') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-hand-dollar'}) }}
                 <span>Folha de Pag.</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/diaria" class="link {{ route_name is same as('diaria') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-diary'}) }}
                 <span>Diária</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/estrutura-organizacional" class="link {{ route_name is same as('estrutura-organizacional') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-building'}) }}
                 <span>Estrutura Organizacional</span>
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/transparencia/e-sic" class="link {{ route_name is same as('e-sic') ? 'active' }}">
                 {{ include ('components/_icon.html.twig', {'icon_name': 'fa-siq'}) }}
                 <span>e-SIC</span>
             </a>
